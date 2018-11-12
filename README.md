@@ -52,5 +52,7 @@ Repeatability = (intersection of the significant pathways of the samples) / (uni
 As the permutation number increases, better repeatability is achieved.
 
 
+[Repeatability vs. Permutation number](https://github.com/miko-798/GSEA/blob/master/Practice/repeat.png)
+
 
 
