@@ -56,6 +56,8 @@ Repeatability = (intersection of the significant pathways of the samples) / (uni
 
 As seen in the figure below, when the permutation number increases, better repeatability is achieved.
 
+In this dataset, it may be suggested that **permutation number = 600** is a good parameter, that gives us reliable results in a reasonable amount of time.
+
 *Red line*: repeatability is calculated using all 10 iterations for each permuation number
 
 *Purple line*: repeatability is calculated using pairwise intersection and union within the 10 iteration; then take average
