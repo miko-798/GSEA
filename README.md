@@ -37,9 +37,14 @@ This effect has to do with the permutation number: number of times to shuffle th
 
 Find out a permutation number that gives us reliable results (consistent throughout runs), and runs in a reasonable amount of time.
 
+
+### Dataset:
+
+Gene expression matrices from mouse liver normal and liver tumor samples.
+
 ### Method:
 
-**Repeatability** was used to measure the reliability of a run.
+**Repeatability** was used to measure the reliability of runs (10 iterations for each permutation number).
 
 Repeatability = (intersection of the significant pathways of the samples) / (union of the significant pathways of the samples)
 
@@ -49,10 +54,13 @@ Repeatability = (intersection of the significant pathways of the samples) / (uni
 
 ### Result:
 
-As the permutation number increases, better repeatability is achieved.
+As seen in the figure below, when the permutation number increases, better repeatability is achieved.
 
+*Red line*: repeatability is calculated using all 10 iterations for each permuation number
 
-[Repeatability vs. Permutation number](https://github.com/miko-798/GSEA/blob/master/Practice/repeat.png)
+*Purple line*: repeatability is calculated using pairwise intersection and union within the 10 iteration; then take average
+
+![Repeatability vs. Permutation number](https://github.com/miko-798/GSEA/blob/master/Practice/repeat.png)
 
 
 
